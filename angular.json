@@ -1,12 +1,9 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
-  "cli": {
-    "analytics": "76f62f69-fc72-4b91-a592-958eac84cfbb"
-  },
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "githubSearch": {
+    "github-search": {
       "root": "",
       "sourceRoot": "src",
       "projectType": "application",
@@ -16,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/githubSearch",
+            "outputPath": "dist/github-search",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -28,7 +25,8 @@
             "styles": [
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [],
+            "es5BrowserSupport": true
           },
           "configurations": {
             "production": {
@@ -60,18 +58,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "githubSearch:build"
+            "browserTarget": "github-search:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "githubSearch:build:production"
+              "browserTarget": "github-search:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "githubSearch:build"
+            "browserTarget": "github-search:build"
           }
         },
         "test": {
@@ -105,7 +103,7 @@
         }
       }
     },
-    "githubSearch-e2e": {
+    "github-search-e2e": {
       "root": "e2e/",
       "projectType": "application",
       "prefix": "",
@@ -114,11 +112,11 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "githubSearch:serve"
+            "devServerTarget": "github-search:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "githubSearch:serve:production"
+              "devServerTarget": "github-search:serve:production"
             }
           }
         },
@@ -134,5 +132,5 @@
       }
     }
   },
-  "defaultProject": "githubSearch"
+  "defaultProject": "github-search"
 }
