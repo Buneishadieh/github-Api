@@ -3,7 +3,12 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  username: "ma-za-kpe",
+  Client_ID: "485a827e471b486920c7",
+  Client_Secret: "d2e17ac3e482e02b0bcd938f0f333a96710bc4ab",
+  access_token: " 8b952f75ba604e65ba16075f5ac7a887e8e68f1d ",
+  base_url: "https://api.github.com"
 };
 
 /*

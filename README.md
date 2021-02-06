@@ -1,6 +1,23 @@
-# Api
+# GithubSearch
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.1.3.
+#Project Author
+
+- MAKU PAULINE MAZAKPE
+
+## PROJECT DESCRIPTION
+
+-A website where users may enter a GitHub username into a form, submit it, and see names and descriptions of that person's public repositories. A person can also look for repositories. You also get to view my personal profile
+
+### INSTALLATION INSTRUCTION
+
+1. npm install
+2. ng serve -o
+
+### Live Link
+
+- https://ma-za-kpe.github.io/github-api-ip/myProfile
+
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.1.4.
 
 ## Development server
 
@@ -24,4 +41,4 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 
 ## Further help
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
