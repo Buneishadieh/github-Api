@@ -15,6 +15,8 @@ import { PageNotFoundComponent } from "./page-not-found/page-not-found.component
 import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { UnderlineDirective } from './underline.directive';
 import { SortPipe } from './sort.pipe';
+import { RoutingModule } from 'angular-routing';
+import {Router} from '@angular/router';
 
 @NgModule({
   declarations: [AppComponent, MyProfileComponent, PageNotFoundComponent, NavBarComponent, UnderlineDirective, SortPipe],
@@ -23,7 +25,8 @@ import { SortPipe } from './sort.pipe';
     HttpClientModule,
     UsersModule,
     ReposModule,
-    AppRoutingModule
+    AppRoutingModule,
+    RoutingModule.forRoot()
   ],
   providers: [MyProfileService, NgxNavigationWithDataComponent],
   bootstrap: [AppComponent]
