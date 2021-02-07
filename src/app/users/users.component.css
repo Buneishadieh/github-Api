@@ -22,28 +22,28 @@ div.wrapper{
         height: 1px; 
         background-image: -webkit-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
         background: -moz-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
-        background: -ms-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
-        background: -o-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0); 
+        background: -ms-linear-gradient(left, #cec3c3, #8c8b8b, #f0f0f0);
+        background: -o-linear-gradient(left, #f0f0f0, #8c8b8b, #11c738); 
       }
     
     hr.style2 { 
     margin-bottom: 60px;
     border: 1px; 
     height: 1px; 
-    background-image: -webkit-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+    background-image: -webkit-linear-gradient(left, #85d1d6, #8c8b8b, #f0f0f0);
     background: -moz-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
     background: -ms-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
-    background: -o-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0); 
+    background: -o-linear-gradient(left, hsl(193, 56%, 83%), #8c8b8b, #f0f0f0); 
     }
     h4.style2{
         margin-top: 50px;
-        font-family: 'Great Vibes', cursive; 
+        font-family: 'Grebes', cursie; 
         text-align: center;
         font-size: 36px;
         color:#0BB6E4;
     }
     h4{
-        font-family: 'Great Vibes', cursive; 
+        font-family: 'Great Vibes', cursiv; 
         text-align: center;
         font-size: 36px;
         color:#0BB6E4;
@@ -97,7 +97,7 @@ div.wrapper{
     }
     
     div.cards.repocard{
-        border: 1px solid #d8d4d4;
+        border: 1px solid #d0e9ec;
         border-radius: 5px;
         padding-bottom: 5px;
         margin-bottom: 15px;
