@@ -1,7 +1,5 @@
 # github-search
-
-This is an Independent Project that for Week 2 in Core. 
-which uses API to search users and their data from github
+This application uses  API to search users and their data from github
 
 ## Description
 Github Finder is a web application that uses the GitHub API to perform searches on GitHub and display the results to the user.
@@ -23,7 +21,6 @@ View the complete site :https://api-gith.herokuapp.com/users
 
 ## Technologies Used
 It is built using Angular JS, HTML, Bootstrap.
-The website uses components, custom directives, custom pipes, routing modules.
 
 
 ## Development server
