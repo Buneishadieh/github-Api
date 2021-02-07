@@ -1,6 +1,7 @@
 {
   "extends": "../tsconfig.json",
   "compilerOptions": {
+    "enableIvy": false,
     "outDir": "../out-tsc/app",
     "types": []
   },
