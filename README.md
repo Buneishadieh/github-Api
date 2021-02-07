@@ -1,7 +1,7 @@
-# GithubSearch
+# github-search
 
-This is an Independent Project that for Week 2 in Core. The application is an exercise to build our undestanding in angular.
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.8.
+This is an Independent Project that for Week 2 in Core. 
+which uses API to search users and their data from github
 
 ## Description
 Github Finder is a web application that uses the GitHub API to perform searches on GitHub and display the results to the user.
@@ -14,31 +14,17 @@ Github Finder is a web application that uses the GitHub API to perform searches 
 4. Repository page loads 10  searches and one can click `load more` to view more pages.
 
 
-## Behaviour Driven Development
-
-| Behaviour | Input | Output |
-| --------- | ------| ------ |
-|Show github profile|Enter the Username in the search box and cick `search`|Displays name, username, bio, number of repositories, Hireable, date of creating the repo, followers, following and public gists|
-|Search gitub repositories | Navigate to Repos page click on `Repositories` and type the name of repository.|Displays a list of 10 repositories based on the query|
-|Load more search Results	|Click `Load More` button on the Find Repos page |Adds 10 more results in the search results|
-|Redirect to github profile on Github website | Click the `view on github` button of a Github user | Opens the profile on the Github website|
-|Redirect to a specific Github Repository | Click the `view on github` button of a repository on repositories page | Opens the Repository on Github website |
-
-
 ## Known Bugs
 There are no known bugs. Contact me if you find.
 
 
 ## Live Website
-View the complete site [here]()
+View the complete site :https://api-gith.herokuapp.com/users
 
 ## Technologies Used
 It is built using Angular JS, HTML, Bootstrap.
 The website uses components, custom directives, custom pipes, routing modules.
-The components in the application are:
 
-## Contributors
- - David Mwaniki Njiru. Techinical Mentor. Sam Ngigi. Moringa School.
 
 ## Development server
 
@@ -52,19 +38,13 @@ Run `ng generate component component-name` to generate a new component. You can 
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
-## Running unit tests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 
 ## License
 ---------
 ### MIT License
 
-Copyright (c) [2019] [David Mwaniki Njiru]
+Copyright (c) [2021] [bunei shadrack]
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -86,21 +66,5 @@ SOFTWARE.
 
 
 ### Contact Information
-mr.mwaniki@gmail.com 
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+Email:buneishadrack5@gmail.com
 
