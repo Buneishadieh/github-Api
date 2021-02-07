@@ -21,8 +21,8 @@ export class DataService {
 
   constructor(private http:Http) {
     console.log('service is ready');
-    this.username = 'Dnjiru';
-    this.reponame = 'quotes-app';
+    this.username = 'Buneishadieh';
+    this.reponame = 'quoteIP';
     this.show = 10;
 
 
